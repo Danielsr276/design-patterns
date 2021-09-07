@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import com.daniel.padroesDeProjeto.criacional.fabrica.enumeration.TipoPlano;
+import com.daniel.padroesDeProjeto.criacional.fabrica.model.Plano;
+import com.daniel.padroesDeProjeto.criacional.fabrica.factory.PlanoFabrica;
+
 import static java.util.Arrays.stream;
 
 public class PlanoMain {

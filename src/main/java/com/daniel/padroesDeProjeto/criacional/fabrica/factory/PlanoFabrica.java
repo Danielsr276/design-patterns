@@ -1,4 +1,10 @@
-package com.daniel.padroesDeProjeto.criacional.fabrica;
+package com.daniel.padroesDeProjeto.criacional.fabrica.factory;
+
+import com.daniel.padroesDeProjeto.criacional.fabrica.enumeration.TipoPlano;
+import com.daniel.padroesDeProjeto.criacional.fabrica.model.Plano;
+import com.daniel.padroesDeProjeto.criacional.fabrica.model.PlanoComercial;
+import com.daniel.padroesDeProjeto.criacional.fabrica.model.PlanoDomestico;
+import com.daniel.padroesDeProjeto.criacional.fabrica.model.PlanoInstitucional;
 
 public class PlanoFabrica {
 

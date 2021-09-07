@@ -1,4 +1,4 @@
-package com.daniel.padroesDeProjeto.criacional.fabrica;
+package com.daniel.padroesDeProjeto.criacional.fabrica.model;
 
 public abstract class Plano {
 

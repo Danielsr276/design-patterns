@@ -3,12 +3,12 @@ package com.daniel.padroesDeProjeto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.daniel.padroesDeProjeto.criacional.fabrica.Plano;
-import com.daniel.padroesDeProjeto.criacional.fabrica.PlanoComercial;
-import com.daniel.padroesDeProjeto.criacional.fabrica.PlanoDomestico;
-import com.daniel.padroesDeProjeto.criacional.fabrica.PlanoFabrica;
-import com.daniel.padroesDeProjeto.criacional.fabrica.PlanoInstitucional;
-import com.daniel.padroesDeProjeto.criacional.fabrica.TipoPlano;
+import com.daniel.padroesDeProjeto.criacional.fabrica.model.Plano;
+import com.daniel.padroesDeProjeto.criacional.fabrica.model.PlanoComercial;
+import com.daniel.padroesDeProjeto.criacional.fabrica.model.PlanoDomestico;
+import com.daniel.padroesDeProjeto.criacional.fabrica.factory.PlanoFabrica;
+import com.daniel.padroesDeProjeto.criacional.fabrica.model.PlanoInstitucional;
+import com.daniel.padroesDeProjeto.criacional.fabrica.enumeration.TipoPlano;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
